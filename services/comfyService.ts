@@ -1,8 +1,8 @@
 
 import { ComfyPromptResponse, ComfyHistoryResponse } from '../types';
 
-// Use proxy in development, direct URL in production
-const BASE_URL = import.meta.env.DEV ? '/api' : 'http://208.115.102.98:8188';
+// Always use /api proxy - vite preview server has proxy configured
+const BASE_URL = '/api';
 
 export const comfyService = {
   /**
