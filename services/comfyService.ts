@@ -1,7 +1,8 @@
 
 import { ComfyPromptResponse, ComfyHistoryResponse } from '../types';
 
-const BASE_URL = 'http://208.115.102.98:8188';
+// Use proxy in development, direct URL in production
+const BASE_URL = import.meta.env.DEV ? '/api' : 'http://208.115.102.98:8188';
 
 export const comfyService = {
   /**
