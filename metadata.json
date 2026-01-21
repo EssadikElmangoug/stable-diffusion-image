@@ -1,0 +1,5 @@
+{
+  "name": "Stable Diffusion Image",
+  "description": "A simplified text-to-image generator using SDXL Turbo and ComfyUI.",
+  "requestFramePermissions": []
+}
